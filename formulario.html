@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap</title>
+
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="page-header">
+			<h1>Formulário Bootstrap</h1>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-8">
+				<h3><b>CADASTRE-SE</b></h3>
+				<form action="#">
+
+					<div class="form-group">
+						<label for="nome">Nome</label>
+						<input class="form-control" type="name" id="nome">
+					</div>
+
+					<div class="form-group">
+						<label for="email">E-mail</label>
+						<input class="form-control" type="email" id="email">
+					</div>
+
+					<div class="form-group">
+					<label for="senha">Senha</label>
+					<input class="form-control" type="password" id="senha">
+					</div>
+
+					<div class="radio">
+					<label>
+						<input type="radio" name="opc">Java
+					</label>
+					<label>
+						<input type="radio" name="opc">PHP
+					</label>
+					<label>
+						<input type="radio" name="opc">Python
+					</label>
+					</div>
+
+					<div class="checkbox">
+					<label>
+						<input type="checkbox">Aceito os termos de condição
+					</label>
+					</div>
+
+					<button type="submit" class="btn btn-primary">Cadastrar</button>
+
+				</form>
+			</div>
+
+			<div class="col-sm-4">
+				<h3><b>LOGAR</b></h3>
+				<form>
+					<div class="form-group">
+					<label for="email-log">E-mail</label>
+					<input class="form-control" type="email" id="email-log">
+					</div>
+					<div class="form-group">
+					<label for="pass-log">Senha</label>
+					<input class="form-control" type="password" id="pass-log">
+					</div>
+					<button type="submit" class="btn btn-success">ENTRAR</button>
+					
+				</form>
+			</div>
+
+
+		</div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
